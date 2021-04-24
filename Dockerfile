@@ -4,15 +4,14 @@
 # |__|__|___  ||__||__|__|__.__|      |__||_____|___._|
 #       |_____|
 #
-# Copyright (c) 2020 Fabio Cicerchia. https://fabiocicerchia.it. MIT License
-# Repo: https://github.com/fabiocicerchia/nginx-lua
+# Repo: https://github.com/vlnrajesh/nginx-lua
 
 #############################
 # Settings Common Variables #
 #############################
 FROM alpine:3.13.5 AS base
 
-ARG DOCKER_IMAGE=fabiocicerchia/nginx-lua
+ARG DOCKER_IMAGE=vlnrajesh/nginx-lua
 ENV DOCKER_IMAGE=$DOCKER_IMAGE
 ARG DOCKER_IMAGE_OS=alpine
 ENV DOCKER_IMAGE_OS=$DOCKER_IMAGE_OS
